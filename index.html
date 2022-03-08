@@ -17,9 +17,9 @@
           
             <!-- Scene. -->
             <a-image src="#ad" position="0 0 -5"></a-image>
-            <a-sound src="#neigh" autoplay="true" on="true"></a-sound>
-            <a-entity geometry="primitive: plane" material="src: #kentucky-derby" position="4 0 -3"></a-entity>
-            <a-entity mixin="giant" obj-model="obj: #horse-obj; mtl: #horse-mtl" position="0 0 -2"></a-entity>
+            <a-sound src="#neigh" preload="auto" autoplay="true" on="true"></a-sound>
+            <a-entity geometry="primitive: plane" material="src: #kentucky-derby" position="4 0 -3" preload="auto"></a-entity>
+            <a-entity mixin="giant" obj-model="obj: #horse-obj; mtl: #horse-mtl" position="0 0 -8"></a-entity>
           </a-scene>
     </body>
 </html>
